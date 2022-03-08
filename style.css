@@ -112,7 +112,14 @@ h4{
 .about img{
 	height: auto;
 	width: 430px;
+    opacity: 0.4;
+    cursor: pointer;
 }
+
+.about img:hover{
+    opacity: 0.8;
+}
+
 .about-text{
 	width: 550px;
 }
